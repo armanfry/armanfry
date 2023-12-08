@@ -1,10 +1,21 @@
-- 👋 Hi, I’m @armanfry
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-armanfry/armanfry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
----
+string Math = Console.ReadLine();
+Console.WriteLine("Please Enter Number 1");
+int Number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please Enter Number 2");
+int Number2 = Convert.ToInt32(Console.ReadLine());
+switch (Math)
+{
+    case "+":
+        Console.WriteLine(Number1 + Number2);
+        break;
+    case "-":
+        Console.WriteLine(Number1 - Number2);
+        break;
+    case "*":
+        Console.WriteLine(Number1 * Number2);
+        break;
+    case "/":
+        Console.WriteLine(Number1 / Number2);
+        break;
+}
+Console.ReadKey();
